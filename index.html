@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/payment_form.css">
+
+<style>
+    hr{
+     border: 1.34px solid black;
+    }
+    fieldset{
+        border-color: black;
+    }
+</style>
+</head>
+
+<body>
+    <div class="bodyy">
+        <h1 class="head">Payment Form</h1>
+        <hr>
+        <fieldset class="user">
+            <legend>
+                <h2 class="head2">User Information
+
+                </h2>
+            </legend>
+
+            Name : <input type="text" name="name" id="name" required placeholder="Enter your full name"><br>
+            Father's name : <input type="text" name="f_name" id="f_name" required
+                placeholder="Enter your father's name"><br>
+            Gender : Male <input type="radio" name="gender" id="Male">
+            Female <input type="radio" name="gender" id="Female"><br>
+            Email : <input type="email" name="email" id="email" required placeholder="Enter your email address"><br>
+            Mobile number : <input type="number" name="number" id="number" required
+                placeholder="Enter your 10 digit mobile number"><br>
+            D.O.B. : <input type="date" name="dob" id="dob"><br>
+        </fieldset>
+        <fieldset class="payment">
+            <legend>
+                <h2 class="head2">Payment Information</h2>
+            </legend>
+
+            Bank Name : <select name="bank" id="bank">
+                <option value="">-- Choose your bank --</option>
+                <option value="pnb">Punjab National Bank</option>
+                <option value="sbi">State Bank of India</option>
+                <option value="boi">bank of Baroda</option>
+                <option value="axis">Axis Bank</option>
+                <option value="icici"> Icicicici Bank</option>
+                <option value="hdfc">Hdfc Bank</option>
+            </select><br>
+            Acount Number : <input type="number" name="ac_no" id="ac_no" required
+                placeholder="Enter your bank account number"><br>
+            Card Name : <input type="text" name="card" id="card" required
+                placeholder="ex : PNB Rupay Kuber Dhanlaxami Credit Card"><br>
+            Card Type : <select name="card" id="card">
+                <option value="">-- Choose Your card type --</option>
+                <option value="debit">Debit Card</option>
+                <option value="credit">Credit Card</option>
+                <option value="atm">Atm cum debit Card</option>
+                <option value="shopping">Shopping Card</option>
+            </select><br>
+
+            Card Number : <input type="number" name="card_no" id="card_no" required
+                placeholder="1234-1234-1234-1234"><br>
+            CVV Number : <input type="nunber" name="cvv" id="cvv" required placeholder="1234556"><br>
+            Expiry Date : <input type="date" name="card_exp" id="card_exp" required><br>
+        </fieldset>
+        <a href="#">
+        <input type="submit" value="Pay Now" id="pay">
+        </a>
+    </div>
+</body>
+
+</html>

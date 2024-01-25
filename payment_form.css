@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:1px solid blueviolet;
+    border-radius: 6px;
+
+}
+.head{
+    text-align: center;
+}
+.bodyy{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+    color: black;
+    background-color: aliceblue;
+}
+input,select{
+    border: lightslategray;
+    border-radius: 6px;
+    width:60%;
+    padding: 7px;
+    color:rgb(10, 10, 11);
+    margin: 2%;
+    background-color:rgb(209, 209, 157);
+}
+fieldset{
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="radio"]
+{
+width:80px;
+}
+#pay{
+    margin: 6% 20% 5% 20%;
+    
+}
+#pay:hover{
+    background-color: greenyellow;
+    border: 2px solid red;
+    cursor: pointer;
+color: blue;
+}
